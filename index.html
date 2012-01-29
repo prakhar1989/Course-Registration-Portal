@@ -20,7 +20,7 @@
     <div class="topbar">
       <div class="fill">
         <div class="container">
-          <a class="brand" href="#">Course Registration</a>
+          <a class="brand" href="#top">Course Registration</a>
           <ul class="nav pull-left">
             <li><a href="#slot1">Slot 1</a></li>
             <li><a href="#slot2">Slot 2</a></li>
@@ -29,7 +29,7 @@
         </div>
       </div>
     </div>
-    <div class="header">
+    <div class="header" id="top">
       <div class="container">
         <h1>COURSE REGISTRATION PORTAL</h1>
         <div class="iimc">
@@ -252,6 +252,11 @@
         </div>
       </section>
 
+      <div class="actions courseSubmit">
+        <input type="submit" class="btn primary" name="" value="Submit Courses" id=""/>
+        <a href="#top">Top</a>
+      </div>
+
       <footer>
         <p>&copy; IIM Calcutta - Internet Solutions Group 2012</p>
       </footer>
@@ -262,6 +267,8 @@
     <script type="text/javascript" language="javascript" charset="utf-8">
     //<![CDATA[
     $('.nav li a').smoothScroll();
+    $('a.brand').smoothScroll();
+    $('.courseSubmit a').smoothScroll();
     //]]>
     </script>
   </body>
