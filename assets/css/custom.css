@@ -23,7 +23,7 @@ label, select, input[type=button], input[type=submit]{
 h1,h2{
   font-family: 'Mido'; 
 }
-table thead {
+table thead{
   background: #4B76A7;
   color: #d9d9d9;
 }
