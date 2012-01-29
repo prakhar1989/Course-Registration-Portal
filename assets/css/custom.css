@@ -15,6 +15,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   color: #4B76A7;
 }
+.iimc{ background: url('../img/50logo.png') no-repeat 330px center;} 
 label, select, input[type=button], input[type=submit]{
   color: #39444F;
   font-family: 'Open Sans', sans-serif !important;
