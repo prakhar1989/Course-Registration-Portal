@@ -112,3 +112,20 @@ section {
 .courseSubmit a {
   float: right;
 }
+.bidScore{
+  margin-top: 40px;
+  border-top: 1px solid #DDD;
+  padding-bottom: 20px;
+}
+
+.bidScore h5:first-child{
+  float:left;
+  margin-right: 10px;
+  color: #4B76A7;
+  font-weight: 300;
+}
+
+.bidScore h5:last-child{
+  color: #4b76A7;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
